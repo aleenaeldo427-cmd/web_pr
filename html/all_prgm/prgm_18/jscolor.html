@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button onclick="changeColor()">Change Color</button>
+  <button onclick="changeBackgroundImage()">Change Background Image</button>
+  <button onclick="resetBackground()">Resume To Normal</button>
+<script>
+const originalColor = "white";
+const originalImage = "none"; 
+function changeColor() {
+  document.body.style.backgroundImage = "none";
+  document.body.style.backgroundColor = "blue";
+}
+function changeBackgroundImage() {
+   document.body.style.backgroundImage ="url('https://images.unsplash.com/photo-1631631480669-535cc43f2327?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww')";
+  document.body.style.backgroundColor = "";
+}
+
+function resetBackground() {
+  document.body.style.backgroundColor = originalColor;
+  document.body.style.backgroundImage = originalImage;
+}
+</script>
+</body>
+</html>
+
+

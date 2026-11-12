@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paradise Resort</title>
+</head>
+<body>
+    <h1 align="center">Paradise Resort</h1>  
+    <p>
+        Welcome to <strong>Paradise Resort</strong>, a premium getaway nestled right along the pristine beaches of Kerala. Our resort offers <b>world-class luxury</b> paired with <em>exceptional hospitality</em> to make your vacation unforgettable. 
+        <br><br>
+        Our top-tier facilities include an <u>infinity swimming pool</u>, an authentic Ayurvedic wellness spa, and an exquisite beachfront restaurant. Guests can spend their days relaxing in private villas or taking part in exciting attractions like <i>guided backwater boat cruises</i> and stunning sunset beach walks.
+    </p>
+<p align="center">
+    <img src="https://media.istockphoto.com/id/2223376026/photo/luxury-tropical-pool-villa-at-dusk.jpg?s=612x612&w=0&k=20&c=KmXb1-GWZvz-Fa6TvMKIbNsxfEs09t6Nm5NEzrMBy3E=" width="500" height="300" alt="Paradise Resort Beachfront View">
+</p>
+<h2>Resort Facilities</h2>
+<p>We offer a wide range of premium amenities to ensure a comfortable stay:</p>
+<ol>
+    <li>Swimming Pool</li>
+    <li>Restaurant</li>
+    <li>Free Wi-Fi</li>
+    <li>Spa</li>
+    <li>Conference Hall</li>
+    <li>Parking</li>
+</ol>
+<h3>Available Room Types</h3>
+<table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Room Type</th>
+            <th>Capacity</th>
+            <th>Price per Night</th>
+            <th>Facilities</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Deluxe Room</td>
+            <td>2 Persons</td>
+            <td>₹4000</td>
+            <td>AC, TV, Wi-Fi</td>
+        </tr>
+        <tr>
+            <td>Family Room</td>
+            <td>4 Persons</td>
+            <td>₹6500</td>
+            <td>AC, TV, Wi-Fi</td>
+        </tr>
+        <tr>
+            <td>Suite</td>
+            <td>2 Persons</td>
+            <td>₹8000</td>
+            <td>AC, TV, Mini Bar</td>
+        </tr>
+    </tbody>
+</table>
+<h3>Useful Links</h3>
+<p>Click the links below to find out more or manage your stay:</p>
+<ul>
+    <li><a href="index.html">Resort Home Page</a></li>
+    <li><a href="https://google.com" target="_blank">View Location</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="https://booking.com" target="_blank">Travel/Booking Website</a></li>
+</ul>
+<h3>Online Booking Form</h3>
+<form action="#" method="post" >
+    <p>
+        <label for="guest-name">Guest Name:</label><br>
+        <input type="text" id="guest-name" name="guest_name" required>
+    </p>
+    <p>
+        <label for="guest-email">Email:</label><br>
+        <input type="email" id="guest-email" name="guest_email" required>
+  </p>
+    <p>
+        <label for="guest-phone">Phone Number:</label><br>
+        <input type="tel" id="guest-phone" name="guest_phone" required>
+    </p>
+    <p>
+        <label for="check-in">Check-in Date:</label><br>
+        <input type="date" id="check-in" name="check_in_date" required>
+    </p>
+    <p>
+        <label for="check-out">Check-out Date:</label><br>
+        <input type="date" id="check-out" name="check_out_date" required>
+    </p>
+    <p>
+        <label for="guests-count">Number of Guests:</label><br>
+        <input type="number" id="guests-count" name="guests_count" min="1" max="10" required>
+    </p>
+    <p>
+        <label for="room-select">Room Type:</label><br>
+        <select id="room-select" name="room_type">
+            <option value="deluxe">Deluxe Room</option>
+            <option value="family">Family Room</option>
+            <option value="suite">Suite</option>
+        </select>
+    </p>
+    <p>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </p>
+    <p>
+        <label>Facilities Required:</label><br>
+        <input type="checkbox" id="fac-ac" name="facilities" value="ac">
+        <label for="fac-ac">AC</label><br>
+        
+        <input type="checkbox" id="fac-tv" name="facilities" value="tv">
+        <label for="fac-tv">TV</label><br>
+        
+        <input type="checkbox" id="fac-wifi" name="facilities" value="wifi">
+        <label for="fac-wifi">Wi-Fi</label><br>
+        
+        <input type="checkbox" id="fac-minibar" name="facilities" value="minibar">
+        <label for="fac-minibar">Mini Bar</label>
+    </p>
+    <p>
+        <label for="requests">Special Requests:</label><br>
+        <textarea id="requests" name="special_requests" rows="4" cols="40" placeholder="Any extra requirements..."></textarea>
+    </p>
+    <p>
+        <label for="id-proof">Upload ID Proof:</label><br>
+        <input type="file" id="id-proof" name="id_proof">
+    </p>
+    <p>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset">
+    </p>
+
+</form>
+</body>
+</html>
+
