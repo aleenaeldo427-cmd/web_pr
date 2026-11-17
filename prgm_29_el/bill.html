@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electricity Bill Calculator</title>
+</head>
+<body>
+    <h2>Electricity Bill Calculator</h2>
+    <form action="bill.php" method="post">
+        <label for="units">Units Consumed (kWh):</label>
+        <input type="number" id="units" name="units" required><br><br>
+
+        <label for="rate">Tariff Rate ($ per kWh):</label>
+        <input type="number" id="rate" name="rate" required><br><br>
+
+        <input type="submit" value="Calculate Bill">
+    </form>
+</body>
+</html>
