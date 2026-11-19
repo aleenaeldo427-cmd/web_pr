@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Management System</title>
+</head>
+<body>
+
+    <h2>Add Book Information</h2>
+    <form action="insert.php" method="POST">
+        <label for="accession_no">Accession Number:</label>
+        <input type="text" id="accession_no" name="accession_no" required><br><br>
+
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="authors">Authors:</label>
+        <input type="text" id="authors" name="authors" required><br><br>
+
+        <label for="edition">Edition:</label>
+        <input type="text" id="edition" name="edition" required><br><br>
+
+        <label for="publisher">Publisher:</label>
+        <input type="text" id="publisher" name="publisher" required><br><br>
+
+        <input type="submit" value="Save Book">
+    </form>
+
+    <hr>
+
+    <h2>Search Book by Title</h2>
+    <form action="search.php" method="GET">
+        <label for="search_title">Enter Book Title:</label>
+        <input type="text" id="search_title" name="search_title" required>
+        <input type="submit" value="Search">
+    </form>
+
+</body>
+</html>
